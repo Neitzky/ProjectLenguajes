@@ -20,7 +20,7 @@ public class Ventana extends javax.swing.JFrame {
      */
     public Ventana() {
          initComponents();
-         cosas new= DefaultListModel()
+         cosas new= DefaultListModel();
          jList1.setModel(cosas);
     }
 
@@ -131,6 +131,7 @@ public class Ventana extends javax.swing.JFrame {
         }
     
      public void add (Cosita a){
+         cosas.addElement(a);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

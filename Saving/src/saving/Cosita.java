@@ -44,7 +44,7 @@ public class Cosita {
 
     @Override
     public String toString() {
-        return "Cosita{" + "nombre=" + nombre + ", cantidad=" + cantidad + '}';
+        return "nombre= " + nombre + ", cantidad=" + cantidad ;
     }
     
     

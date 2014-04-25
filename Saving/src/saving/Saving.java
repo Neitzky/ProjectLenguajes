@@ -17,6 +17,7 @@ public class Saving {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new Ventana().setVisible(true);
     }
     
 }
