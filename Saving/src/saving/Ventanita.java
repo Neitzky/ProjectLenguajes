@@ -121,6 +121,8 @@ public class Ventanita extends javax.swing.JDialog {
 
     private void AddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddActionPerformed
         // TODO add your handling code here:
+        Cosita cosi= new Cosita(jTextField1.getText(),
+          jTextField2.getText(), Integer.parseInt(jTextField3.getText()));  
     }//GEN-LAST:event_AddActionPerformed
 
     /**
